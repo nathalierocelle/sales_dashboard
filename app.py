@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
 # ---- READ DATA ----
-data = './data/supermarkt_sales.csv'
+data = 'supermarkt_sales.csv'
 df = pd.read_csv(data)
 
 # ---- MODIFY THE DATA ---- 
